@@ -1,0 +1,341 @@
+2025-07-30 21:24:08,779 - INFO - SQLite database initiated successfully at ./db/lms.db
+2025-07-30 21:24:14,230 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-30 21:24:14,230 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 21:24:24,272 - INFO - 192.168.1.186 - - [30/Jul/2025 21:24:24] "GET / HTTP/1.1" 200 -
+2025-07-30 21:24:24,957 - INFO - 192.168.1.186 - - [30/Jul/2025 21:24:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-30 21:24:26,487 - INFO - 192.168.1.186 - - [30/Jul/2025 21:24:26] "GET /content/quiz.html HTTP/1.1" 200 -
+2025-07-30 21:24:36,179 - ERROR - SQLite error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 127939836780800 and this is thread id 127939799221952.
+2025-07-30 21:24:36,181 - INFO - 192.168.1.186 - - [30/Jul/2025 21:24:36] "[35m[1mGET /quiz/student1/100 HTTP/1.1[0m" 500 -
+2025-07-30 21:24:38,418 - INFO - 192.168.1.186 - - [30/Jul/2025 21:24:38] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 21:45:12,103 - INFO - 192.168.1.186 - - [30/Jul/2025 21:45:12] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-30 21:50:15,733 - INFO - SQLite database initiated successfully at ./db/lms.db
+2025-07-30 21:50:21,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-30 21:50:21,178 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 21:50:34,153 - INFO - 192.168.1.186 - - [30/Jul/2025 21:50:34] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-30 21:50:42,236 - INFO - Quiz submitted: student_id=student1, score=100
+2025-07-30 21:50:42,237 - INFO - 192.168.1.186 - - [30/Jul/2025 21:50:42] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-30 21:50:50,508 - INFO - 192.168.1.186 - - [30/Jul/2025 21:50:50] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 22:09:07,967 - INFO - 192.168.1.186 - - [30/Jul/2025 22:09:07] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-30 22:09:17,183 - INFO - Quiz submitted: student_id=student1, score=100
+2025-07-30 22:09:17,184 - INFO - 192.168.1.186 - - [30/Jul/2025 22:09:17] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-30 22:09:19,908 - INFO - 192.168.1.186 - - [30/Jul/2025 22:09:19] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 23:01:20,196 - INFO - 192.168.1.186 - - [30/Jul/2025 23:01:20] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 23:24:04,578 - INFO - 192.168.1.186 - - [30/Jul/2025 23:24:04] "GET /content/Basic%20Math%20Review%20Card.pdf HTTP/1.1" 200 -
+2025-07-30 23:24:19,381 - INFO - 192.168.1.186 - - [30/Jul/2025 23:24:19] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 01:13:50,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-31 01:13:50,898 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 01:14:01,525 - INFO - Serving index.html
+2025-07-31 01:14:01,532 - INFO - 192.168.1.186 - - [31/Jul/2025 01:14:01] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 01:14:03,296 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 01:14:03,297 - INFO - 192.168.1.186 - - [31/Jul/2025 01:14:03] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 01:14:09,316 - INFO - SQLite Connection initialized for thread 140643418031808
+2025-07-31 01:14:09,390 - ERROR - Unexpected error in submit_quiz: module 'threading' has no attribute 'get_indent'
+2025-07-31 01:14:09,391 - INFO - Closed SQLite connection for thread 140643418031808
+2025-07-31 01:14:09,391 - INFO - 192.168.1.186 - - [31/Jul/2025 01:14:09] "[35m[1mGET /quiz/student1/100 HTTP/1.1[0m" 500 -
+2025-07-31 01:14:15,675 - INFO - Serving index.html
+2025-07-31 01:14:15,676 - INFO - 192.168.1.186 - - [31/Jul/2025 01:14:15] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 01:15:48,715 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 01:15:48,716 - INFO - 192.168.1.186 - - [31/Jul/2025 01:15:48] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 01:15:54,586 - INFO - SQLite Connection initialized for thread 140643418031808
+2025-07-31 01:15:54,794 - ERROR - Unexpected error in submit_quiz: module 'threading' has no attribute 'get_indent'
+2025-07-31 01:15:54,794 - INFO - Closed SQLite connection for thread 140643418031808
+2025-07-31 01:15:54,795 - INFO - 192.168.1.186 - - [31/Jul/2025 01:15:54] "[35m[1mGET /quiz/student1/100 HTTP/1.1[0m" 500 -
+2025-07-31 01:15:57,238 - INFO - Serving index.html
+2025-07-31 01:15:57,239 - INFO - 192.168.1.186 - - [31/Jul/2025 01:15:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 01:16:42,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-31 01:16:42,327 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 01:16:48,192 - INFO - Serving index.html
+2025-07-31 01:16:48,199 - INFO - 192.168.1.186 - - [31/Jul/2025 01:16:48] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 01:16:50,423 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 01:16:50,424 - INFO - 192.168.1.186 - - [31/Jul/2025 01:16:50] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 01:16:55,742 - INFO - SQLite Connection initialized for thread 138060887332544
+2025-07-31 01:16:55,813 - INFO - Quiz submitted: student_id=student1, score=100, thread=138060887332544
+2025-07-31 01:16:55,813 - INFO - Closed SQLite connection for thread 138060887332544
+2025-07-31 01:16:55,813 - INFO - 192.168.1.186 - - [31/Jul/2025 01:16:55] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-31 01:17:02,063 - INFO - Serving index.html
+2025-07-31 01:17:02,064 - INFO - 192.168.1.186 - - [31/Jul/2025 01:17:02] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 01:32:56,915 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-31 01:32:56,915 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 01:33:03,040 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-31 01:33:03,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 01:33:08,646 - INFO - Serving index.html
+2025-07-31 01:33:08,672 - INFO - 192.168.1.186 - - [31/Jul/2025 01:33:08] "GET / HTTP/1.1" 200 -
+2025-07-31 01:35:43,602 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 01:35:43,603 - INFO - 192.168.1.186 - - [31/Jul/2025 01:35:43] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 01:35:51,674 - INFO - Serving file: ./content/Basic Math Review Card.pdf (MIME:application/pdf)
+2025-07-31 01:35:51,675 - INFO - 192.168.1.186 - - [31/Jul/2025 01:35:51] "[36mGET /content/Basic%20Math%20Review%20Card.pdf HTTP/1.1[0m" 304 -
+2025-07-31 01:36:28,574 - INFO - Serving index.html
+2025-07-31 01:36:28,576 - INFO - 192.168.1.186 - - [31/Jul/2025 01:36:28] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 01:55:47,636 - INFO - Serving index.html
+2025-07-31 01:55:47,638 - INFO - 192.168.1.186 - - [31/Jul/2025 01:55:47] "GET / HTTP/1.1" 200 -
+2025-07-31 15:32:56,338 - ERROR - Failed to load MobileBERT LiteRT model or tokenizer: Can't load tokenizer for './model/mobilebert-litert'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure './model/mobilebert-litert' is the correct path to a directory containing all relevant files for a MobileBertTokenizer tokenizer.
+2025-07-31 15:34:36,547 - ERROR - Failed to load MobileBERT LiteRT model or tokenizer: Can't load tokenizer for './model/mobilebert-litert'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure './model/mobilebert-litert' is the correct path to a directory containing all relevant files for a MobileBertTokenizer tokenizer.
+2025-07-31 15:36:47,493 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 15:36:54,772 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-31 15:36:54,772 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 15:37:07,459 - INFO - Serving index.html
+2025-07-31 15:37:07,593 - INFO - 192.168.1.186 - - [31/Jul/2025 15:37:07] "GET / HTTP/1.1" 200 -
+2025-07-31 15:37:08,753 - INFO - 192.168.1.186 - - [31/Jul/2025 15:37:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 15:37:13,116 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 15:37:13,129 - INFO - 192.168.1.186 - - [31/Jul/2025 15:37:13] "GET /content/quiz.html HTTP/1.1" 200 -
+2025-07-31 15:37:20,747 - INFO - SQLite Connection initialized for thread 139877347604160
+2025-07-31 15:37:20,838 - INFO - Quiz submitted: student_id=student1, score=100, thread=139877347604160
+2025-07-31 15:37:21,256 - ERROR - Error generating recommendation: Cannot set tensor: Dimension mismatch. Got 128 but expected 384 for dimension 1 of input 5422.
+2025-07-31 15:37:21,256 - INFO - Closed SQLite connection for thread 139877347604160
+2025-07-31 15:37:21,257 - INFO - 192.168.1.186 - - [31/Jul/2025 15:37:21] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-31 15:59:19,084 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 15:59:20,326 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.186:8080
+2025-07-31 15:59:20,326 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 15:59:26,134 - INFO - Serving index.html
+2025-07-31 15:59:26,138 - INFO - 192.168.1.186 - - [31/Jul/2025 15:59:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 15:59:27,772 - INFO - Serving index.html
+2025-07-31 15:59:27,773 - INFO - 192.168.1.186 - - [31/Jul/2025 15:59:27] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 15:59:29,335 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 15:59:29,336 - INFO - 192.168.1.186 - - [31/Jul/2025 15:59:29] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 15:59:36,078 - INFO - SQLite Connection initialized for thread 130006510323392
+2025-07-31 15:59:36,233 - INFO - Quiz submitted: student_id=student1, score=100, thread=130006510323392
+2025-07-31 15:59:36,302 - ERROR - Error generating recommendation: name 'attention_mask' is not defined
+2025-07-31 15:59:36,303 - INFO - Closed SQLite connection for thread 130006510323392
+2025-07-31 15:59:36,303 - INFO - 192.168.1.186 - - [31/Jul/2025 15:59:36] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-31 16:08:52,703 - INFO - Serving index.html
+2025-07-31 16:08:52,704 - INFO - 192.168.1.186 - - [31/Jul/2025 16:08:52] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 16:34:11,871 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 16:34:11,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2025-07-31 16:34:11,887 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 16:34:17,611 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 16:34:17,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2025-07-31 16:34:17,627 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 16:34:54,402 - INFO - Serving index.html
+2025-07-31 16:34:54,414 - INFO - 172.20.10.2 - - [31/Jul/2025 16:34:54] "GET / HTTP/1.1" 200 -
+2025-07-31 16:34:55,127 - INFO - 172.20.10.2 - - [31/Jul/2025 16:34:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 16:34:58,716 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 16:34:58,718 - INFO - 172.20.10.2 - - [31/Jul/2025 16:34:58] "GET /content/quiz.html HTTP/1.1" 200 -
+2025-07-31 16:35:05,279 - INFO - SQLite Connection initialized for thread 124753872271040
+2025-07-31 16:35:05,347 - INFO - Quiz submitted: student_id=student1, score=100, thread=124753872271040
+2025-07-31 16:35:06,134 - INFO - Generated recommendation for score 100: understanding. for scores above 80 %, advance
+2025-07-31 16:35:06,134 - INFO - Closed SQLite connection for thread 124753872271040
+2025-07-31 16:35:06,135 - INFO - 172.20.10.2 - - [31/Jul/2025 16:35:06] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-31 16:39:27,336 - INFO - Serving index.html
+2025-07-31 16:39:27,339 - INFO - 172.20.10.2 - - [31/Jul/2025 16:39:27] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 16:44:52,402 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 16:44:52,402 - INFO - Input details: [{'name': 'input_ids', 'index': 5422, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'input_mask', 'index': 5423, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'segment_ids', 'index': 5424, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 16:44:52,404 - INFO - Output details: [{'name': 'end_logits', 'index': 5421, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'start_logits', 'index': 5425, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 16:44:52,419 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2025-07-31 16:44:52,419 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 16:44:57,794 - INFO - Serving index.html
+2025-07-31 16:44:57,802 - INFO - 172.20.10.2 - - [31/Jul/2025 16:44:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 16:44:59,727 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 16:44:59,729 - INFO - 172.20.10.2 - - [31/Jul/2025 16:44:59] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 16:45:06,368 - INFO - SQLite Connection initialized for thread 137692803090112
+2025-07-31 16:45:06,440 - INFO - Quiz submitted: student_id=student1, score=67, thread=137692803090112
+2025-07-31 16:45:07,066 - INFO - Generated recommendation for score 67: Practice more to improve understanding.
+2025-07-31 16:45:07,066 - INFO - Closed SQLite connection for thread 137692803090112
+2025-07-31 16:45:07,067 - INFO - 172.20.10.2 - - [31/Jul/2025 16:45:07] "GET /quiz/student1/67 HTTP/1.1" 200 -
+2025-07-31 16:48:19,504 - INFO - Serving index.html
+2025-07-31 16:48:19,506 - INFO - 172.20.10.2 - - [31/Jul/2025 16:48:19] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 16:48:21,481 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 16:48:21,483 - INFO - 172.20.10.2 - - [31/Jul/2025 16:48:21] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 16:48:31,130 - INFO - SQLite Connection initialized for thread 137692803090112
+2025-07-31 16:48:31,811 - INFO - Quiz submitted: student_id=student1, score=33, thread=137692803090112
+2025-07-31 16:48:32,369 - INFO - Generated recommendation for score 33: Review basic concepts to build a stronger foundation.
+2025-07-31 16:48:32,370 - INFO - Closed SQLite connection for thread 137692803090112
+2025-07-31 16:48:32,370 - INFO - 172.20.10.2 - - [31/Jul/2025 16:48:32] "GET /quiz/student1/33 HTTP/1.1" 200 -
+2025-07-31 16:48:49,275 - INFO - Serving index.html
+2025-07-31 16:48:49,277 - INFO - 172.20.10.2 - - [31/Jul/2025 16:48:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 17:50:23,661 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 17:50:23,661 - INFO - Input details: [{'name': 'input_ids', 'index': 5422, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'input_mask', 'index': 5423, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'segment_ids', 'index': 5424, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 17:50:23,663 - INFO - Output details: [{'name': 'end_logits', 'index': 5421, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'start_logits', 'index': 5425, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 17:50:23,667 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080
+2025-07-31 17:50:23,667 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 17:50:28,046 - INFO - Serving index.html
+2025-07-31 17:50:28,055 - INFO - 127.0.0.1 - - [31/Jul/2025 17:50:28] "GET / HTTP/1.1" 200 -
+2025-07-31 17:50:28,135 - INFO - 127.0.0.1 - - [31/Jul/2025 17:50:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 17:51:49,185 - INFO - Serving index.html
+2025-07-31 17:51:49,187 - INFO - 127.0.0.1 - - [31/Jul/2025 17:51:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 17:53:16,405 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 17:53:16,407 - INFO - 127.0.0.1 - - [31/Jul/2025 17:53:16] "GET /content/quiz.html HTTP/1.1" 200 -
+2025-07-31 17:56:56,374 - INFO - Serving index.html
+2025-07-31 17:56:56,448 - INFO - 172.20.10.2 - - [31/Jul/2025 17:56:56] "GET / HTTP/1.1" 200 -
+2025-07-31 17:56:59,353 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 17:56:59,364 - INFO - 172.20.10.2 - - [31/Jul/2025 17:56:59] "GET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1" 200 -
+2025-07-31 17:56:59,496 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 17:56:59,498 - INFO - 172.20.10.2 - - [31/Jul/2025 17:56:59] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:10:15,794 - INFO - Serving index.html
+2025-07-31 19:10:15,803 - INFO - 172.20.10.2 - - [31/Jul/2025 19:10:15] "GET / HTTP/1.1" 200 -
+2025-07-31 19:13:12,707 - INFO - Serving index.html
+2025-07-31 19:13:12,711 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:12] "GET / HTTP/1.1" 200 -
+2025-07-31 19:13:29,826 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:13:29,827 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:29] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:13:29,829 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:13:29,830 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:29] "GET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1" 200 -
+2025-07-31 19:13:29,876 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:13:29,877 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:29] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:13:29,927 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 19:13:40,586 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:13:40,588 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:40] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:13:40,590 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:13:40,591 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:40] "GET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1" 200 -
+2025-07-31 19:13:40,638 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:13:40,639 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:40] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:13:40,686 - INFO - 172.20.10.2 - - [31/Jul/2025 19:13:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 19:14:57,258 - INFO - Serving index.html
+2025-07-31 19:14:57,264 - INFO - 172.20.10.2 - - [31/Jul/2025 19:14:57] "GET / HTTP/1.1" 200 -
+2025-07-31 19:14:59,606 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:14:59,607 - INFO - 172.20.10.2 - - [31/Jul/2025 19:14:59] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:14:59,608 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:14:59,609 - INFO - 172.20.10.2 - - [31/Jul/2025 19:14:59] "GET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1" 200 -
+2025-07-31 19:14:59,654 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:14:59,654 - INFO - 172.20.10.2 - - [31/Jul/2025 19:14:59] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:14:59,711 - INFO - 172.20.10.2 - - [31/Jul/2025 19:14:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 19:15:53,569 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:15:53,571 - INFO - 172.20.10.2 - - [31/Jul/2025 19:15:53] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:15:53,573 - INFO - Serving file: ./content/Basic addition _ Addition and subtraction _ Arithmetic _ Khan Academy.mp4 (MIME:video/mp4)
+2025-07-31 19:15:53,574 - INFO - 172.20.10.2 - - [31/Jul/2025 19:15:53] "[35m[1mGET /content/Basic%20addition%20_%20Addition%20and%20subtraction%20_%20Arithmetic%20_%20Khan%20Academy.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:24:34,450 - INFO - Serving index.html
+2025-07-31 19:24:34,459 - INFO - 172.20.10.2 - - [31/Jul/2025 19:24:34] "GET / HTTP/1.1" 200 -
+2025-07-31 19:24:35,892 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 19:24:35,893 - INFO - 172.20.10.2 - - [31/Jul/2025 19:24:35] "GET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1" 200 -
+2025-07-31 19:24:35,943 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 19:24:35,944 - INFO - 172.20.10.2 - - [31/Jul/2025 19:24:35] "[35m[1mGET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 19:24:36,021 - INFO - 172.20.10.2 - - [31/Jul/2025 19:24:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 19:24:44,283 - INFO - Serving file: ./content/Basic Math Review Card.pdf (MIME:application/pdf)
+2025-07-31 19:24:44,296 - INFO - 172.20.10.2 - - [31/Jul/2025 19:24:44] "GET /content/Basic%20Math%20Review%20Card.pdf HTTP/1.1" 200 -
+2025-07-31 19:24:52,018 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 19:24:52,019 - INFO - 172.20.10.2 - - [31/Jul/2025 19:24:52] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:32:41,056 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 20:32:41,098 - INFO - Input details: [{'name': 'input_ids', 'index': 5422, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'input_mask', 'index': 5423, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'segment_ids', 'index': 5424, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 20:32:41,118 - INFO - Output details: [{'name': 'end_logits', 'index': 5421, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'start_logits', 'index': 5425, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 20:32:41,219 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2025-07-31 20:32:41,219 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:32:48,932 - INFO - Serving index.html
+2025-07-31 20:32:48,978 - INFO - 172.20.10.2 - - [31/Jul/2025 20:32:48] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:32:49,170 - INFO - 172.20.10.2 - - [31/Jul/2025 20:32:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 20:52:50,449 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 20:52:50,450 - INFO - Input details: [{'name': 'input_ids', 'index': 5422, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'input_mask', 'index': 5423, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'segment_ids', 'index': 5424, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 20:52:50,451 - INFO - Output details: [{'name': 'end_logits', 'index': 5421, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'start_logits', 'index': 5425, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 20:52:50,467 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2025-07-31 20:52:50,467 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:53:04,052 - INFO - Serving index.html
+2025-07-31 20:53:04,057 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:04] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:53:15,139 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 20:53:15,142 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:15] "[35m[1mGET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 20:53:15,146 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 20:53:15,151 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:15] "GET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1" 200 -
+2025-07-31 20:53:15,297 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 20:53:15,299 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:15] "[35m[1mGET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 20:53:31,167 - INFO - Serving file: ./content/Basic Math Review Card.pdf (MIME:application/pdf)
+2025-07-31 20:53:31,169 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:31] "[36mGET /content/Basic%20Math%20Review%20Card.pdf HTTP/1.1[0m" 304 -
+2025-07-31 20:53:41,085 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 20:53:41,087 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:41] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:53:54,370 - INFO - SQLite Connection initialized for thread 127720004372160
+2025-07-31 20:53:54,576 - INFO - Quiz submitted: student_id=student1, score=100, thread=127720004372160
+2025-07-31 20:53:55,275 - INFO - Generated recommendation for score 100: Advance to more challenging topics to deepen your skills.
+2025-07-31 20:53:55,275 - INFO - Closed SQLite connection for thread 127720004372160
+2025-07-31 20:53:55,275 - INFO - 172.20.10.2 - - [31/Jul/2025 20:53:55] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-31 20:54:03,227 - INFO - Serving index.html
+2025-07-31 20:54:03,229 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:03] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:54:07,652 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 20:54:07,654 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:07] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:54:15,996 - INFO - SQLite Connection initialized for thread 127720004372160
+2025-07-31 20:54:16,157 - INFO - Quiz submitted: student_id=student1, score=34, thread=127720004372160
+2025-07-31 20:54:16,679 - INFO - Generated recommendation for score 34: Review basic concepts to build a stronger foundation.
+2025-07-31 20:54:16,679 - INFO - Closed SQLite connection for thread 127720004372160
+2025-07-31 20:54:16,679 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:16] "GET /quiz/student1/34 HTTP/1.1" 200 -
+2025-07-31 20:54:24,027 - INFO - Serving index.html
+2025-07-31 20:54:24,029 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:54:26,229 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 20:54:26,231 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:26] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:54:34,224 - INFO - SQLite Connection initialized for thread 127720004372160
+2025-07-31 20:54:34,293 - INFO - Quiz submitted: student_id=student1, score=0, thread=127720004372160
+2025-07-31 20:54:34,870 - INFO - Generated recommendation for score 0: Review basic concepts to build a stronger foundation.
+2025-07-31 20:54:34,870 - INFO - Closed SQLite connection for thread 127720004372160
+2025-07-31 20:54:34,870 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:34] "GET /quiz/student1/0 HTTP/1.1" 200 -
+2025-07-31 20:54:39,214 - INFO - Serving index.html
+2025-07-31 20:54:39,216 - INFO - 172.20.10.2 - - [31/Jul/2025 20:54:39] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:57:18,897 - INFO - MobileBERT LiteRT model and tokenizer loaded successfullly
+2025-07-31 20:57:18,897 - INFO - Input details: [{'name': 'input_ids', 'index': 5422, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'input_mask', 'index': 5423, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'segment_ids', 'index': 5424, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.int32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 20:57:18,899 - INFO - Output details: [{'name': 'end_logits', 'index': 5421, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}, {'name': 'start_logits', 'index': 5425, 'shape': array([  1, 384], dtype=int32), 'shape_signature': array([  1, 384], dtype=int32), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-07-31 20:57:18,913 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2025-07-31 20:57:18,913 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:57:34,541 - INFO - Serving index.html
+2025-07-31 20:57:34,551 - INFO - 172.20.10.2 - - [31/Jul/2025 20:57:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:57:46,087 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 20:57:46,089 - INFO - 172.20.10.2 - - [31/Jul/2025 20:57:46] "[35m[1mGET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 20:57:46,101 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 20:57:46,104 - INFO - 172.20.10.2 - - [31/Jul/2025 20:57:46] "GET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1" 200 -
+2025-07-31 20:57:46,312 - INFO - Serving file: ./content/Basic Maths_ Watch Fola find square of numbers in less than 1 minute 🔥🔥🔥.mp4 (MIME:video/mp4)
+2025-07-31 20:57:46,313 - INFO - 172.20.10.2 - - [31/Jul/2025 20:57:46] "[35m[1mGET /content/Basic%20Maths_%20Watch%20Fola%20find%20square%20of%20numbers%20in%20less%20than%201%20minute%20🔥🔥🔥.mp4 HTTP/1.1[0m" 206 -
+2025-07-31 20:58:00,193 - INFO - Serving file: ./content/Basic Math Review Card.pdf (MIME:application/pdf)
+2025-07-31 20:58:00,197 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:00] "[36mGET /content/Basic%20Math%20Review%20Card.pdf HTTP/1.1[0m" 304 -
+2025-07-31 20:58:08,504 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 20:58:08,506 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:08] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:58:18,516 - INFO - SQLite Connection initialized for thread 136226579265216
+2025-07-31 20:58:18,700 - INFO - Quiz submitted: student_id=student1, score=100, thread=136226579265216
+2025-07-31 20:58:19,241 - INFO - Generated recommendation for score 100: Advance to more challenging topics to deepen your skills.
+2025-07-31 20:58:19,241 - INFO - Closed SQLite connection for thread 136226579265216
+2025-07-31 20:58:19,241 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:19] "GET /quiz/student1/100 HTTP/1.1" 200 -
+2025-07-31 20:58:24,169 - INFO - Serving index.html
+2025-07-31 20:58:24,175 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:58:26,230 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 20:58:26,232 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:26] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:58:34,863 - INFO - SQLite Connection initialized for thread 136226579265216
+2025-07-31 20:58:34,935 - INFO - Quiz submitted: student_id=student1, score=34, thread=136226579265216
+2025-07-31 20:58:35,502 - INFO - Generated recommendation for score 34: Review basic concepts to build a stronger foundation.
+2025-07-31 20:58:35,503 - INFO - Closed SQLite connection for thread 136226579265216
+2025-07-31 20:58:35,503 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:35] "GET /quiz/student1/34 HTTP/1.1" 200 -
+2025-07-31 20:58:41,085 - INFO - Serving index.html
+2025-07-31 20:58:41,087 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:41] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-31 20:58:43,638 - INFO - Serving file: ./content/quiz.html (MIME:text/html)
+2025-07-31 20:58:43,639 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:43] "[36mGET /content/quiz.html HTTP/1.1[0m" 304 -
+2025-07-31 20:58:51,212 - INFO - SQLite Connection initialized for thread 136226579265216
+2025-07-31 20:58:52,545 - INFO - Quiz submitted: student_id=student1, score=0, thread=136226579265216
+2025-07-31 20:58:53,030 - INFO - Generated recommendation for score 0: Review basic concepts to build a stronger foundation.
+2025-07-31 20:58:53,031 - INFO - Closed SQLite connection for thread 136226579265216
+2025-07-31 20:58:53,031 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:53] "GET /quiz/student1/0 HTTP/1.1" 200 -
+2025-07-31 20:58:57,449 - INFO - Serving index.html
+2025-07-31 20:58:57,452 - INFO - 172.20.10.2 - - [31/Jul/2025 20:58:57] "[36mGET / HTTP/1.1[0m" 304 -
